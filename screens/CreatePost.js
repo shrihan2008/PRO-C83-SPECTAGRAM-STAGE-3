@@ -91,6 +91,9 @@ export default class CreatePost extends Component{
                     })
                   }
                 />
+                 <TextInput style={styles.textInput} onChangeText={caption=>this.setState({
+                  caption
+              })} placeholder={"Caption"}/>
               </View>
             </ScrollView>
           </View>
